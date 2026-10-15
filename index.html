@@ -87,7 +87,7 @@
                 try {
                     // Gọi sang API của trang đích (Server của bạn sẽ đóng vai trò ký HMAC rồi gọi ngầm sang mmx.today)
                     // Tuyệt đối KHÔNG giữ OFFER_TASK_CLIENT_SECRET trên Browser.
-                    const response = await fetch('/api/proxy-complete-task', {
+                    const response = await fetch('/api/complete-task', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
