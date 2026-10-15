@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/complete-task",
+      "destination": "https://mmx.today/api/complete-task"
+    }
+  ]
+}
